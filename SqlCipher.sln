@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sqlite3", "sqlite3\sqlite3.vcxproj", "{55C62549-CA41-4456-BF9C-5976DFAB44B4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SqlCipher-static", "SqlCipher-static\SqlCipher-static.vcxproj", "{044F3638-F02F-4B56-A9A7-AB67B7E09495}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SqlCipherTest", "SqlCipherTest\SqlCipherTest.vcxproj", "{11280DC8-0CCE-4309-9693-81F635879C46}"
+	ProjectSection(ProjectDependencies) = postProject
+		{044F3638-F02F-4B56-A9A7-AB67B7E09495} = {044F3638-F02F-4B56-A9A7-AB67B7E09495}
+		{55C62549-CA41-4456-BF9C-5976DFAB44B4} = {55C62549-CA41-4456-BF9C-5976DFAB44B4}
+		{E2D189ED-286E-4C16-B778-88D43E6D1063} = {E2D189ED-286E-4C16-B778-88D43E6D1063}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SqlCipher", "SqlCipher\SqlCipher.vcxproj", "{E2D189ED-286E-4C16-B778-88D43E6D1063}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55C62549-CA41-4456-BF9C-5976DFAB44B4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{55C62549-CA41-4456-BF9C-5976DFAB44B4}.Debug|Win32.Build.0 = Debug|Win32
+		{55C62549-CA41-4456-BF9C-5976DFAB44B4}.Release|Win32.ActiveCfg = Release|Win32
+		{55C62549-CA41-4456-BF9C-5976DFAB44B4}.Release|Win32.Build.0 = Release|Win32
+		{044F3638-F02F-4B56-A9A7-AB67B7E09495}.Debug|Win32.ActiveCfg = Debug|Win32
+		{044F3638-F02F-4B56-A9A7-AB67B7E09495}.Debug|Win32.Build.0 = Debug|Win32
+		{044F3638-F02F-4B56-A9A7-AB67B7E09495}.Release|Win32.ActiveCfg = Release|Win32
+		{044F3638-F02F-4B56-A9A7-AB67B7E09495}.Release|Win32.Build.0 = Release|Win32
+		{11280DC8-0CCE-4309-9693-81F635879C46}.Debug|Win32.ActiveCfg = Debug|Win32
+		{11280DC8-0CCE-4309-9693-81F635879C46}.Debug|Win32.Build.0 = Debug|Win32
+		{11280DC8-0CCE-4309-9693-81F635879C46}.Release|Win32.ActiveCfg = Release|Win32
+		{11280DC8-0CCE-4309-9693-81F635879C46}.Release|Win32.Build.0 = Release|Win32
+		{E2D189ED-286E-4C16-B778-88D43E6D1063}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E2D189ED-286E-4C16-B778-88D43E6D1063}.Debug|Win32.Build.0 = Debug|Win32
+		{E2D189ED-286E-4C16-B778-88D43E6D1063}.Release|Win32.ActiveCfg = Release|Win32
+		{E2D189ED-286E-4C16-B778-88D43E6D1063}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
